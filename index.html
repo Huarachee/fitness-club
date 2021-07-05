@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+    <!-- Modals -->
+    <div class="reviews">
+        <div class="reviews-content">
+            <button class="close"></button>
+            <h3 class="content__title">Отзывы</h3>
+            <div class="review-1 review-all">
+                <div class="review-title">Василий Вакуленко</div>
+                <p class="review-text">
+                    Очень понравился зал! Настолько, что больше туда не прийду. Там все черти и питухи ебаные, ходят со
+                    своими банками, у каждого пресс по 8 кубиков, а у меня 8 дней до оплаты зала осталось. Пошли на хуй!
+                </p>
+            </div>
+            <div class="review-2 review-all">
+                <div class="review-title">Петя Петушок</div>
+                <p class="review-text">
+                    Ходил туда-сюда, да что-то и накачал. Парни нравятся, накаченные, потные, а главное им понравилась
+                    моя фамилия.
+                </p>
+            </div>
+            <div class="review-3 review-all">
+                <div class="review-title">Василиса Премудрая</div>
+                <p class="review-text">
+                    После прихода в спорт-зал разочаровалась в своем теле. Я думала 140кг. для девушки это норм.
+                    Оказывается это далеко от правды. Даже на ресепшене меня позвали "Эй, ты, жирная шлюха!". Немного
+                    смутилась, а так всё устраивает.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="photos">
+        <div class="photos-content">
+            <button class="close close-photos"></button>
+            <h3 class="content__title photos__title">Фотографии</h3>
+            <div class="images-1 images"></div>
+            <div class="images-2 images"></div>
+            <div class="images-3 images"></div>
+        </div>
+    </div>
+
+    <!-- Arrow-up -->
+    <a class="arrow-up arrow-pu__visible" href="#header">
+        <img class="arrow-up__img" src="images/arrow-up.svg" alt="">
+    </a>
+
+    <!-- Content -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="header__logo">
+                    <a class="header__logo--img" href="#">
+                        <img src="images/logo-img.svg" alt="">
+                    </a>
+                    <div class="header__logo--name">
+                        <a href="#" class="logo__link-name">
+                            Физика
+                        </a>
+                        <div class="logo__sup-name">
+                            Фитнес клубы
+                        </div>
+                    </div>
+                </div>
+                <nav class="header-menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="#">Отзывы</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href="#">Фотографии</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href=".service">Услуги</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__link" href=".contact">Запись</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Бургер-кнопка (появляется при экране в 768px) -->
+                <button class="menu-btn">
+                    
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="header-title title">
+                Фитнес-клуб
+                “Физика”
+                на Московском шоссе
+            </div>
+            <div class="header-suptitle">
+                <div class="header-suptitle__address">
+                    <span class="header-suptitle__address--text">Самара, Московское шоссе, 17</span>
+                </div>
+                <div class="header-suptitle__time">
+                    <span class="header-suptitle__time--text">Время работы: 07:00 - 00:00 (ежедневно)</span>
+                </div>
+            </div>
+            <div class="bg-img">
+                <img class="images-bg" src="images/bg-img.svg" alt="">
+            </div>
+            <a class="arrow-down" href="#photo">
+                <div class="arrow-down__spans">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </header>
+    <section class="photo" id="photo">
+        <div class="container">
+            <div class="photo__slider">
+                <img class="photo__img" src="images/slide-1.jpg" alt="">
+                <img class="photo__img" src="images/slide-2.jpg" alt="">
+                <img class="photo__img" src="images/slide-3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="container">
+
+            <div class="info__about-us">
+                <div class="info__title title">
+                    О нас
+                </div>
+                <div class="info__box">
+                    <div class="box-text">
+                        Чувствовать себя на все 100 процентов легко, если есть здоровье. Фитнес-клуб Физика на
+                        Московском шоссе неуклонно развивается, чтобы пробуждать в вас силы и красоту.
+
+                        Нам очень повезло, что сегодня существует немало методик, чтобы поддерживать себя — внешний вид
+                        и самоощущения — в норме. И один из самых популярных видов физнагрузки — фитнес. Всем клиентам
+                        мы предлагаем пилатес, аэробику и интервальные тренировки. В каждой фитнес-программе создаётся
+                        определённый набор движений и конкретная последовательность их выполнения. Выбирайте программу в
+                        зависимости от цели: увеличить мышечную массу, развить гибкость, убрать лишний вес или даже
+                        просто приходить за приятными эмоциями. Всё это вы найдёте в нашем клубе.
+                    </div>
+                </div>
+            </div>
+
+            <div class="info__extra">
+                <div class="info__title title">
+                    Дополнительно
+                </div>
+                <div class="info__box">
+                    <div class="box-text">
+                        <input type="checkbox" class="read-more-state" id="post-1" />
+                        <p class="read-more-wrap">Также у нас обучение проводят тренеры по танцам — настоящие
+                            профессионалы своего дела, которые
+                            стараются развивать потенциал каждого ученика. А что как не танец помогает развить такие
+                            разные
+                            качества: и пластичность, и ориентацию в пространстве, и, конечно, ощущение ритма! Мы с
+                            удовольствием обучим техничности и обязательно артистизму.
+
+                            Помимо этого, мы предлагаем всем желающим освоить практики йоги и овладеть боевыми
+                            искусствами.
+
+                            <span class="box-text--opacity">А для удобства наших посетителей мы создаём приятные
+                                предложения — чтобы вы приходили к нам с
+                                радостью и скорее достигали поставленных целей. Свой тренер — это наилучший выбор! Этот
+                                человек
+                                может аккуратно следить за вами и тем, правильно ли вы выполняете то или иное
+                                упражнение.
+                                Бесценный плюс — возможность подстраивать программу тренировок с учётом ваших успехов.
+
+                                Когда возникает сильное чувство усталости, так хочется снять напряжение. Специально для
+                                этого мы
+                                предлагаем вам посетить инфракрасную кабину. Для тех, кто не любит высокие температуры,
+                                к
+                                счастью, есть прекрасная замена — инфракрасная сауна, эффект от которой ничуть не хуже.
+                                Хватит
+                                даже одного сеанса, чтобы снять усталость и «обновиться». Но если вы хотите
+                                пролонгированный
+                                результат, вам стоит чаще радовать себя таким образом!
+
+                                Для вас открыт бар.
+
+                                Насчёт времени вы можете получить подробную информацию у сотрудников фитнес-клуба Физика
+                                на
+                                Московском шоссе. И обязательно обговорите с ними или вашим тренером все интересующие
+                                вопросы
+                                разрешённой степени нагрузки. Наша цель - чтобы вы были здоровыми!</span>
+                        </p>
+                        <label for="post-1" class="read-more-trigger"></label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="service">
+        <div class="container">
+            <div class="service__title title">
+                Все услуги фитнеса-клуба
+            </div>
+            <div class="service__cards">
+
+                <div class="card">
+                    <div class="card__title">
+                        Групповые программы
+                    </div>
+                    <img class="card__img" src="images/card-1.jpg" alt="">
+                    <ul class="card__list">
+                        <li class="card__item"><a class="card__link" href="#">Аэробика</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Боевые искусства</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Йога</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Пилатес</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Танцы</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Тренажерный зал</a></li>
+                    </ul>
+                    <img class="card-arrow--1" src="images/card-arrow.svg" alt="">
+                </div>
+
+                <div class="card">
+                    <div class="card__title">
+                        Банный комплекс
+                    </div>
+                    <img class="card__img" src="images/card-2.jpg" alt="">
+                    <ul class="card__list">
+                        <li class="card__item"><a class="card__link" href="#">Сауна</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Хамам</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Баня</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Инфракрасная кабина</a></li>
+                    </ul>
+                    <img class="card-arrow--2" src="images/card-arrow.svg" alt="">
+                </div>
+
+                <div class="card">
+                    <div class="card__title">
+                        Прочие услуги
+                    </div>
+                    <img class="card__img" src="images/card-3.jpg" alt="">
+                    <ul class="card__list">
+                        <li class="card__item"><a class="card__link" href="#">Бар</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Ресторан</a></li>
+                        <li class="card__item"><a class="card__link" href="#">Лаунж-зона</a></li>
+                    </ul>
+                    <img class="card-arrow--3" src="images/card-arrow.svg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="contact__title title">
+                Запись в наш фитнес-клуб:
+            </div>
+            <form action="">
+                <div class="contact__name">
+                    <div class="contact__text-1">
+                        <span class="contact__text--span">Имя:</span>
+                    </div>
+                    <div class="checkbox-text-1"><input type="text" id="checkbox-text"></div>
+                </div>
+                <div class="contact__surname">
+                    <div class="contact__text-2">
+                        <span class="contact__text--span">Фамилия:</span>
+                    </div>
+                    <div class="checkbox-text-2"><input type="text" id="checkbox-text"></div>
+                </div>
+                <div class="contact__telephone">
+                    <div class="contact__text-3">
+                        <span class="contact__text--span">Телефон:</span>
+                    </div>
+                    <div class="checkbox-text-3"><input type="tel" pattern="8[0-9]{10}" id="checkbox-text"></div>
+                </div>
+                <div class="contact__email">
+                    <div class="contact__text-4">
+                        <span class="contact__text--span">Почта:</span>
+                    </div>
+                    <div class="checkbox-text-4"><input type="email" placeholder="Ваш eMail..." id="checkbox-text">
+                    </div>
+                </div>
+                <div class="button-order"><input type="submit" value="Записаться" id="button"></div>
+            </form>
+            <div class="contact__email-bg">
+                <img src="images/email-bg.svg" alt="">
+            </div>
+            <div class="contact__title title">
+                Где нас найти:
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2053.60606155969!2d50.15796007104339!3d53.20292680832144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x984ac28ce269bc9c!2z0KLQpiDQodC40LvQsCDQodC_0L7RgNGC0LA!5e0!3m2!1sru!2sru!4v1604685301622!5m2!1sru!2sru"
+                    width="1170" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
+            <div class="bg-map">
+                <img src="images/map-1.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__copyright">
+                    © Все права защищены
+                </div>
+                <div class="header__logo footer__logo">
+                    <a class="header__logo--img" href="#">
+                        <img src="images/logo-img.svg" alt="">
+                    </a>
+                    <div class="header__logo--name">
+                        <a href="#" class="logo__link-name">
+                            Физика
+                        </a>
+                        <div class="logo__sup-name">
+                            Фитнес клубы
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
